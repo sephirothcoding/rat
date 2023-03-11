@@ -1,6 +1,11 @@
+body
+{  background-color: black;
+}
+
+
 .shareicons{
   text-align: center;
-  background-color: #111111;
+  background-color: white;
 }
 li{
   display:inline-block;
