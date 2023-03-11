@@ -1,0 +1,96 @@
+.shareicons{
+  text-align: center;
+  background-color:white;
+}
+li{
+  display:inline-block;
+  margin:5px;
+  width:80px;
+  height:80px;
+  text-align: center;
+}
+.fab{
+  font-size:40px;
+  padding:20px;
+   transition: 0.6s; /* Время эффекта */
+}
+.fab:hover{
+    transform: scale(1.4); /* Увеличиваем масштаб */
+  transform: rotate(360deg);
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.whatsapp{
+  background-color:#35BA4A;
+   
+}
+.fa-whatsapp:hover{
+  color:green;
+  
+}
+.telegram{
+  background-color:#009BEC;
+}
+.fa-telegram-plane:hover{
+  color:#0A4E6D;
+}
+.facebook{
+  background-color:#4958BD;
+}
+.fa-facebook-f:hover{
+    color:#101F71;
+}
+
+.instagram{
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+.fa-instagram:hover{
+  color: red;
+}
+
+.twitter{
+  background-color:#1DA1F3;
+}
+.fa-twitter:hover{
+  color:#1A79B6;
+}
+.snapchat{
+background-color:#eff700;
+}
+i.fa-snapchat-ghost:hover{
+color:#aaa88a;
+}
+.square{
+   box-shadow: 5px 4px 10px rgba(0, 0, 0, 1.5);
+}
+.square:hover{
+border-radius: 10px;
+  box-shadow:none;
+  transition: 0.4s; 
+}
+
+/*Block border*/
+.border{
+  border-radius: 10px;
+  transition: 0.8s; 
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 1.5);
+}
+.border:hover{
+border-radius:50px;
+  box-shadow:none;
+}
+
+/*BlockRound */
+.round{
+   border-radius: 50px;
+  transition: 0.3s; 
+   box-shadow: 5px 4px 10px rgba(0, 0, 0, 1.5);
+}
+.round:hover{
+  border-radius:0px;
+  box-shadow:none;
+}
